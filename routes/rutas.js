@@ -9,7 +9,7 @@ router.get("/contacto", function (req, res) {// esta en la ruta para la view de 
 	res.render("contacto")
 })
 
-router.get("/info", function (req, res){
+router.get("/info", function (req, res){// esta en la ruta para la view de acerca de nosotros
 	res.render("info")
 })
 export default router// 
